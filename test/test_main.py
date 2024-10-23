@@ -11,7 +11,7 @@ def test_method():
     assert func(3) == 8
 
 def test_answer1(): 
-  a = 5*2
+  a = 5
   b = 10
   assert a==b 
     
