@@ -14,6 +14,6 @@ def read_root():
 # I need a code for my main.py file that will have the following functions:
 # 1. A function that will take a string as input and return the string reversed.
 
-@app.get("/reverse/{item}")
-def reverse_string(item: str):
-    return item[::-1]
+@app.get("/reverse/{var}")
+def reverse_string(var: str):
+    return var[::-1]
